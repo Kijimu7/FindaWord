@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Shapes Demo - WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: findthewords
+    id: 4818476721516696
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-11-16T11:32:46-0800
+  configId: 4e21a24e472ab684e84db753427d5687
+  clientAccessToken: FK5QOAS55ZVW2ZTPZL6YSQYY4UPF5N5S
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 4501290816628279
+    name: Tongue_Twisters
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: Betty Botter bought some butter
+      synonyms:
+      - betty botter bought some butter
+    - keyword: Peter Piper picked a peck of pickled peppers
+      synonyms:
+      - peter piper picked a peck of pickled peppers
+  - witConfiguration: {fileID: 11400000}
+    id: 390028292814151
+    name: color
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: green
+      synonyms:
+      - green
+    - keyword: red
+      synonyms:
+      - red
+  - witConfiguration: {fileID: 11400000}
+    id: 3006269713034785
+    name: shape
+    lookups:
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: capsule
+      synonyms:
+      - capsule
+    - keyword: cube
+      synonyms:
+      - cube
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 420998539646428
+    name: change_color
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 708161780163330
+      name: color:color
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 608637506994685
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 473085527447081
+    name: tongue_twisters
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 408216514342494
+      name: Tongue_Twisters:Tongue_Twisters
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 274019864657129
+    name: word
+    entities: []
+  traits: []
