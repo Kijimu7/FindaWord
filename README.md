@@ -1,7 +1,7 @@
 # FindaWord
 
 THRILLING GAME Ever! You need to find a word and say it whiting 60 seconds... Can you? 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FoJgyt0kXXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://youtu.be/v_177F_Tny4"><img src="https://youtu.be/v_177F_Tny4" style="width:42px;height:42px;"></a>
 
 - Download link
 ## Step to Play the game
