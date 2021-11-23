@@ -1,7 +1,8 @@
 # FindaWord
 
 THRILLING GAME Ever! You need to find a word and say it whiting 60 seconds... Can you? 
-<a href="https://youtu.be/v_177F_Tny4"><img src="https://github.com/Kijimu7/FindaWord/blob/main/githubvideolink.jpg" style="width:400px;height:300px;"></a>
+
+<a href="https://youtu.be/v_177F_Tny4"><img src="https://github.com/Kijimu7/FindaWord/blob/main/githubvideolink.jpg" style="max-width: 100%;"></a>
 
 - Download link
 ## Step to Play the game
